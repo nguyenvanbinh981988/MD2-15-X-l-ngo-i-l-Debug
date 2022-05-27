@@ -3,14 +3,11 @@ package Thu_vien_DHKHTN;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.Date;
 import java.util.Scanner;
 
 public class Manage {
     Scanner input = new Scanner(System.in);
-
-    //    ArrayList<BorrowCard> borrowCardslist = new ArrayList<BorrowCard>();
     ArrayList<Student> studentslist = new ArrayList<>();
 
     public void menu() throws ParseException {
